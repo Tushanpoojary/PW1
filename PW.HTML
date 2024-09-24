@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Queries</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter App</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
-
 <body>
-    <h1>This is a Media Query demo page.</h1>
-    <p class="laptop_large">Screen size : 1440px</p>
-    <p class="laptop">Screen size : 1024px</p>
-    <p class="tablet">Screen size : 768px</p>
-    <p class="mobile">Screen size : 425px</p>
+  <div class="counter-container">
+    <h1>Counter Application</h1>
+    <p id="counter">0</p>
+    <div class="buttons">
+      <button id="incrementBtn">+1</button>
+      <button id="decrementBtn">-1</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
-
 </html>
