@@ -27,3 +27,4 @@ resetBtn.addEventListener('click', () => {
   counter = 0;
   updateDisplay();
 });
+ 
